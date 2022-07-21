@@ -1,0 +1,145 @@
+/****************************TAG SELECTORS****************************/
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  color: #18978F;
+}
+
+h2 {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 2.5rem;
+  color: #774360;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 1.5rem;
+  color: #11999E;
+}
+
+p {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #2C3639;
+}
+
+a {
+  color: #11999E;
+}
+
+hr {
+  clear: both;
+  border-color: #D61C4E;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 5%;
+  margin: 125px auto;
+}
+
+/**************************** CLASS SELECTORS****************************/
+.top-container {
+  background-color: #F5F0BB;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {}
+
+.copyrights {
+  color: #EAF6F6;
+}
+
+.bottom-container {
+  padding: 50px 0 25px;
+  background-color: #dbd27f;
+  margin-top: 30px;
+}
+
+.profession {
+  margin-top: 40px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  top: 390px;
+}
+
+.mountain {
+  margin-top: 50px;
+}
+
+.html-empty-tag {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.pancakes {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.btn {
+  line-height: 5;
+  background: #f0e799;
+  background-image: -webkit-linear-gradient(top, #f0e799, #c7b93b);
+  background-image: -moz-linear-gradient(top, #f0e799, #c7b93b);
+  background-image: -ms-linear-gradient(top, #f0e799, #c7b93b);
+  background-image: -o-linear-gradient(top, #f0e799, #c7b93b);
+  background-image: linear-gradient(to bottom, #f0e799, #c7b93b);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: 'Big Shoulders Display', cursive;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #c4b23f;
+  background-image: -webkit-linear-gradient(top, #c4b23f, #beeb0c);
+  background-image: -moz-linear-gradient(top, #c4b23f, #beeb0c);
+  background-image: -ms-linear-gradient(top, #c4b23f, #beeb0c);
+  background-image: -o-linear-gradient(top, #c4b23f, #beeb0c);
+  background-image: linear-gradient(to bottom, #c4b23f, #beeb0c);
+  text-decoration: none;
+}
+
+.first {
+  margin-top: 50px;
+}
+
+.shorten {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.profile {
+  margin-top: 100px;
+}
